@@ -46,7 +46,7 @@
                         <h2 class="fw-bold mb-3">{{ $product->name }}</h2>
                         <h5 class="fw-bold mb-3">${{ number_format($product->price, 2) }}</h5>
                         <p class="mb-3">
-                            <span>More than {{ $product->stock }} available</span>
+                            <span>{{ $product->stock }} available</span>
                         </p>
 
                         <!-- Ratings -->
